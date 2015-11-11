@@ -1,0 +1,28 @@
+{
+	"author": "David Aguilar Esteban <davievo@gmail.com>",
+	"name": "TemplateAdmin",
+	"version": "0.0.1",
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"start": "node ./bin/www"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davievo/adminLayout.git"
+	},
+	"dependencies": {
+		"express": "latest",
+		"jade": "latest",
+		"body-parser": "latest",
+		"mongoose": "latest",
+		"cookie-parser": "latest",
+		"express-session": "latest",
+		"passport": "latest",
+    	"passport-local": "latest",
+    	"passport-local-mongoose": "latest",
+    	"should": "latest",
+    	"mocha": "latest",
+    	"debug": "latest"
+	}
+}
